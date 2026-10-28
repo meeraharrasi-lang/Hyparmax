@@ -37,6 +37,6 @@ System.out.printf("Total Bill: OMR %.3f%n", totalBill);
             System.out.println("Card payment cancelled.");
         }
 
-        input.close();
+        input.close(); 
     }
 }
