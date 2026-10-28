@@ -1,4 +1,5 @@
 public class ProductNames {
+
     public static void main(String[] args) {
         String product1 = "Laptop";
         String product2 = "Mobile Phone";
@@ -9,6 +10,7 @@ public class ProductNames {
         System.out.println(product3);
     }
 }
+
 double total = laptopPrice + mobilePrice + headphonesPrice;
 
         System.out.println("----- Product Bill -----");
@@ -18,6 +20,7 @@ double total = laptopPrice + mobilePrice + headphonesPrice;
         System.out.printf("Total Bill:   OMR %.3f%n", total);
     }
 }
+
 System.out.printf("Total Bill: OMR %.3f%n", totalBill);
         System.out.print("Pay by card? (yes/no): ");
         String choice = input.nextLine();
@@ -34,6 +37,7 @@ System.out.printf("Total Bill: OMR %.3f%n", totalBill);
                 System.out.println("Payment unsuccessful. Please try again.");
             }
         } else {
+
             System.out.println("Card payment cancelled.");
         }
 
